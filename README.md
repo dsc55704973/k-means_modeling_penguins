@@ -18,6 +18,7 @@ Clustering by Silhouette Score:
 
 <img width="456" alt="Exhibit D Clustering by Silhouette Score" src="https://github.com/dsc55704973/k-means_modeling_penguins/assets/66639071/dbfd6898-ce09-4884-95e6-d9e1a945b8c2">
 
+While inertia gives a measure of how internally coherent clusters are, the silhouette score offers insight into how distinct or separated the clusters are--it's important to evaluate the two in tandem to ascertain the most optimal k-value.
 
 With these line plots, I was then able to leverage the "elbow method" to ascertain any obvious optimal value for "k" (number of clusters), which was 6 clusters.
 
